@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Vr Gaming</title>
+    </head>
+<body>
+    <header>
+        <div class="logo">VR GLASSES</div>
+        <nav>
+            <ul>
+                <li class="ll">
+                    <a href="#">Home</a>
+                    <a href="#">Products</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">About</a>
+                    <a href="#">Contact</a>
+                    <a href="#" class="last">Login</a>
+                </li>
+            </ul>
+        </nav>
+        <i class="fa-solid fa-bars bar"></i>
+    </header>
+    <div class="sec-1">
+        <div class="left">
+            <p class="f-p">GET READY TO ENJOY <br>
+                <span>VR GAMES</span> WITH<br>
+                <span>OUR PLATFORM</span>
+            </p>
+            <p class="s-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa libero atque, cumque nostrum, odit voluptate ipsum dolores amet dolor numquam, laboriosam quam? Sequi pariatur sunt ipsum, rem impedit omnis? Laudantium.</p>
+            <div class="more">
+                <a href="" class="play">Play Now</a>
+                <a href="" class="demo" data-hover="See Demo"><i class="fa-regular fa-circle-play"></i> See Demo</a>
+            </div>
+        </div>
+        <div class="right">
+            <img src="خلفية بنت ام نضارة.png" alt="">
+            <div class="gradient-overlay"><div class="gradient-overlay"></div></div>
+            
+        </div>
+        <div class="pink"></div>
+        <div class="blue"></div>
+        <div class="blue1"></div>
+        <div class="pink1"></div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const bar = document.querySelector('.bar');
+            const nav = document.querySelector('.ll');
+
+            bar.addEventListener('click', function() {
+                if (nav.style.display === 'none' || !nav.style.display) {
+                    nav.style.display = 'flex';
+                } else {
+                    nav.style.display = 'none';
+                }
+            });
+        });
+
+    </script>
+</body>
+</html>
